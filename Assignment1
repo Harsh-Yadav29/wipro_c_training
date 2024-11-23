@@ -1,0 +1,166 @@
+/*
+#include <stdio.h>
+
+int main() {
+    int year;
+    scanf("%d", &year);
+    
+    if(year%4 == 0 || year%400 == 0) {
+        printf("%d is a leap year.", year);
+    }
+}
+*/
+
+/*
+#include <stdio.h>
+
+int main() {
+    int rain, sunny, temp, cloudy, light;
+    scanf("%d %d %d %d %d", &rain, &sunny, &temp, &cloudy, &light);
+    
+    if(!rain) {
+        printf("person can travel.");
+    }
+    else if(sunny && temp <= 35) {
+        printf("person can travel.");
+    }
+    else if(cloudy && !light) {
+        printf("person can travel.");
+    }
+    
+    return 0;
+}
+*/
+
+/*
+#include <stdio.h>
+
+int main() {
+    char ch;
+    scanf("%c", &ch);
+    
+    if(ch >= 'a' && ch <= 'z') {
+        printf("%c is small case alphabet.", ch);
+    }
+    
+    return 0;
+}
+*/
+
+/*
+#include <stdio.h>
+
+int main() {
+    char ch;
+    scanf("%c", &ch);
+    
+    printf("%c", (char) (ch - 32));
+    
+    return 0;
+}
+*/
+
+/*
+#include <stdio.h>
+
+int main() {
+    char ch;
+    scanf("%c", &ch);
+    
+    printf("%c", (char) (ch + 32));
+    
+    return 0;
+}
+*/
+
+/*
+#include <stdio.h>
+
+int main() {
+    char ch;
+    scanf("%c", &ch);
+    
+    if(ch >= 'A' && ch <= 'Z') {
+        printf("%c is upper case alphabet.", ch);
+    }
+    
+    return 0;
+}
+*/
+
+/*
+#include <stdio.h>
+
+int main() {
+    char ch;
+    scanf("%c", &ch);
+    
+    if((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+        printf("The character is an alphabet.\n");
+    }
+    else if (ch >= '0' && ch <= '9') {
+        printf("The character is a digit.\n");
+    }
+    else {
+        printf("The character is a symbol.\n");
+    }
+    
+    return 0;
+}
+*/
+
+/*
+#include <stdio.h>
+
+int main() {
+    int num;
+    scanf("%d", &num);
+    
+    if(num > 9 && num < 100) {
+        printf("The number is a two digit number.\n");
+    }
+    
+    return 0;
+}
+*/
+
+/*
+#include <stdio.h>
+
+int main() {
+    int num, i, isPrime = 1;
+    scanf("%d", &num);
+
+    if (num <= 1) {
+        isPrime = 0;
+    } 
+    else {
+        for (i = 2; i * i <= num; i++) {
+            if (num % i == 0) {
+                isPrime = 0;
+                break;
+            }
+        }
+    }
+    
+    if(isPrime) {
+        printf("The number is a prime number.\n");
+    }
+    
+    return 0;
+}
+*/
+
+
+/*
+
+*/
+
+
+
+
+
+
+
+
+
